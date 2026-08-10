@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Long Beach Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Long Beach Township boundary, adaptively resampled to 24.6 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 7.498425732712405,
+  "pixelSizeFeet": 24.601134293577466,
+  "adaptiveResolution": true,
+  "width": 2897,
+  "height": 5524,
+  "nodata": -999999,
+  "minMeters": 0,
+  "maxMeters": 8.528,
+  "meanMeters": 0.288,
+  "stdDevMeters": 0.756,
+  "minFeet": 0,
+  "maxFeet": 27.979002624560003,
+  "webMercatorBounds": [
+    -8272100.109355,
+    4791930.269315497,
+    -8250377.170007332,
+    4833351.573063
+  ],
+  "leafletBounds": [
+    [
+      39.4888209,
+      -74.3095396
+    ],
+    [
+      39.7753591,
+      -74.1144146
+    ]
+  ],
+  "files": {
+    "demCog": "long_beach_township_dem_5ft_cog.tif",
+    "hillshadeCog": "long_beach_township_hillshade_cog.tif",
+    "hillshadePng": "long_beach_township_hillshade.png",
+    "boundaryGeojson": "long_beach_township_boundary.geojson"
+  }
+}
